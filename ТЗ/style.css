@@ -1,0 +1,41 @@
+.house {
+  position: relative;
+  width: 200px;
+  margin: 100px auto;
+}
+
+.chimney {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 30px;
+  height: 60px;
+  background: brown;
+}
+
+.roof {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 80px solid red;
+}
+
+.base {
+  width: 180px;
+  height: 140px;
+  margin: 0 auto;
+  background: beige;
+  position: relative;
+}
+
+.window {
+  width: 50px;
+  height: 50px;
+  background: skyblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 65px;
+}
